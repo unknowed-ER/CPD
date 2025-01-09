@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7de15e51-2f18-47fa-8b2e-12c4a0963584" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CPD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/attribute-dialogue.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/default_config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/simple.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ESConv/ESConv_test.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ESConv/ESConv_train.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ESConv/ESConv_valid.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/msc/msc_test.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/msc/msc_train.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/msc/msc_valid.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finetune.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finetune_causal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate_chatgpt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_causal_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue_gpu.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/chat.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/deepspeed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/eval.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/finetune_causal.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/generate_msc.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/Vicuna.cpp/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/Vicuna.cpp/Makefile.ref" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/Vicuna.cpp/chat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/Vicuna.cpp/chat.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/Vicuna.cpp/ggml.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/Vicuna.cpp/ggml.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/Vicuna.cpp/quantize.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/Vicuna.cpp/quantize.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/Vicuna.cpp/utils.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/Vicuna.cpp/utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/application/chatglm_lora_finetune.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/application/chatglm_lora_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/application/chitchat_finetune.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/application/finetune_deepspeed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/application/finetune_deepspeed.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/checkpoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/convert_llama.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/convert_pth_to_ggml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/datautils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/download_hf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/download_llama.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/gptq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/human_annote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/human_annote_pair.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/merge_lora.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/merge_lora_peft_auto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/prepare_llama_cpp.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/quant/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/quant/custom_autotune.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/quant/fused_attn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/quant/fused_mlp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/quant/quant_linear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/quant/quantizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/quant_generate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/quant_llama.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/readme_zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/reshard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/shard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/test_llama2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_classify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2rNcFAsvwxi9gGtxKnR26hi9i65" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
+        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7de15e51-2f18-47fa-8b2e-12c4a0963584" name="更改" comment="" />
+      <created>1736402867195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736402867195</updated>
+      <workItem from="1736402868627" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
